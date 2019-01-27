@@ -624,3 +624,7 @@ PORT   STATE SERVICE
 21/tcp open  ftp
 
 ssh [IPADDRESS] 22
+debug1: Connecting to 10.10.10.98 [10.10.10.98] port 22.
+debug1: connect to address 10.10.10.98 port 22: Connection timed out
+ssh: connect to host 10.10.10.98 port 22: Connection timed out
+
