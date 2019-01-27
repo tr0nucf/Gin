@@ -1,2 +1,2 @@
 # Gin
-My oscp preparation
+My oscp preparation notes and sites
