@@ -634,6 +634,10 @@ PORT   STATE    SERVICE REASON
 25/tcp filtered smtp    no-response
 
 nc -nvv [IPADDRESS] 25
+PORT   STATE    SERVICE REASON
+25/tcp filtered smtp    no-response
 
 telnet [IPADDRESS] 25
+telnet: Unable to connect to remote host: Connection timed out
+
 
