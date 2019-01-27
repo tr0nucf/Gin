@@ -18,3 +18,17 @@ PORT   STATE SERVICE REASON          VERSION
 
 nmap -v -sS -A -T4
 # (Very verbose, SYN Stealth, Version info, and scripts against services.)
+PORT   STATE SERVICE REASON          VERSION
+21/tcp open  ftp     syn-ack ttl 127 Microsoft ftpd
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_Can't get directory listing: TIMEOUT
+| ftp-syst: 
+|_  SYST: Windows_NT
+23/tcp open  telnet? syn-ack ttl 127
+80/tcp open  http    syn-ack ttl 127 Microsoft IIS httpd 7.5
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/7.5
+|_http-title: MegaCorp
+
