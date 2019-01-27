@@ -620,3 +620,6 @@ PORT   STATE SERVICE REASON
 
 nmap –script ftp-anon,ftp-bounce,ftp-libopie,ftp-proftpd-backdoor,ftp-vsftpd-backdoor,ftp-vuln-cve2010-4221,tftp-enum -p 21
 # (FTP Enumeration (21))
+PORT   STATE SERVICE
+21/tcp open  ftp
+
