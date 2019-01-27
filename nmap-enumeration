@@ -618,3 +618,5 @@ Reason: 999 resets
 PORT   STATE SERVICE REASON
 80/tcp open  http    syn-ack ttl 63
 
+nmap –script ftp-anon,ftp-bounce,ftp-libopie,ftp-proftpd-backdoor,ftp-vsftpd-backdoor,ftp-vuln-cve2010-4221,tftp-enum -p 21
+# (FTP Enumeration (21))
