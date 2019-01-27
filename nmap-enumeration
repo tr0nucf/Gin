@@ -1,4 +1,4 @@
-nmap
+nmap enumeration commands
 
 nmap -vv -Pn -A -sC -sS -T 4 -p- 
 # (Very verbose, syn, all ports, all scripts, no ping)
