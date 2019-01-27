@@ -20,7 +20,6 @@ HOP RTT      ADDRESS
 1   52.22 ms 10.10.12.1
 2   52.32 ms 10.10.10.98
 
-
 nmap -v -sS -A -T4
 # (Very verbose, SYN Stealth, Version info, and scripts against services.)
 PORT   STATE SERVICE REASON          VERSION
