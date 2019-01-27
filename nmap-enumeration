@@ -43,3 +43,6 @@ HOP RTT      ADDRESS
 nmap –script smb-check-vulns.nse –script-args=unsafe=1 -p445 
 # (Very verbose, script to scan for vulnerable SMB servers [WARNING: unsafe=1 may cause knockover])
 [Script execution failed]
+
+netdiscover -r [network.0/24]
+# (Nmap script to scan for vulnerable SMB servers – WARNING: unsafe=1 may cause knockover)
