@@ -633,3 +633,7 @@ nmap –script smtp-commands,smtp-enum-users,smtp-vuln-cve2010-4344,smtp-vuln-cv
 PORT   STATE    SERVICE REASON
 25/tcp filtered smtp    no-response
 
+nc -nvv [IPADDRESS] 25
+
+telnet [IPADDRESS] 25
+
