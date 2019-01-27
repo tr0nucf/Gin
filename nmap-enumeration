@@ -15,6 +15,11 @@ PORT   STATE SERVICE REASON          VERSION
 |_  Potentially risky methods: TRACE
 |_http-server-header: Microsoft-IIS/7.5
 |_http-title: MegaCorp
+TRACEROUTE (using port 80/tcp)
+HOP RTT      ADDRESS
+1   52.22 ms 10.10.12.1
+2   52.32 ms 10.10.10.98
+
 
 nmap -v -sS -A -T4
 # (Very verbose, SYN Stealth, Version info, and scripts against services.)
@@ -31,4 +36,8 @@ PORT   STATE SERVICE REASON          VERSION
 |_  Potentially risky methods: TRACE
 |_http-server-header: Microsoft-IIS/7.5
 |_http-title: MegaCorp
+TRACEROUTE (using port 80/tcp)
+HOP RTT      ADDRESS
+1   52.22 ms 10.10.12.1
+2   52.32 ms 10.10.10.98
 
