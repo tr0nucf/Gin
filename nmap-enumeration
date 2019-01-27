@@ -17,4 +17,4 @@ PORT   STATE SERVICE REASON          VERSION
 |_http-title: MegaCorp
 
 nmap -v -sS -A -T4
-# (Verbose, SYN Stealth, Version info, and scripts against services.)
+# (Very verbose, SYN Stealth, Version info, and scripts against services.)
