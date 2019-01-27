@@ -15,3 +15,6 @@ PORT   STATE SERVICE REASON          VERSION
 |_  Potentially risky methods: TRACE
 |_http-server-header: Microsoft-IIS/7.5
 |_http-title: MegaCorp
+
+nmap -v -sS -A -T4
+# (Verbose, SYN Stealth, Version info, and scripts against services.)
