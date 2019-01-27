@@ -1,4 +1,5 @@
 nmap
+# (Very verbose, syn, all ports, all scripts, no ping)
 PORT   STATE SERVICE REASON          VERSION
 21/tcp open  ftp     syn-ack ttl 127 Microsoft ftpd
 | ftp-anon: Anonymous FTP login allowed (FTP code 230)
