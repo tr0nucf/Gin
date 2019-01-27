@@ -40,3 +40,5 @@ HOP RTT      ADDRESS
 1   52.22 ms 10.10.12.1
 2   52.32 ms 10.10.10.98
 
+nmap –script smb-check-vulns.nse –script-args=unsafe=1 -p445 
+# (Very verbose, script to scan for vulnerable SMB servers [WARNING: unsafe=1 may cause knockover])
